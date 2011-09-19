@@ -3,6 +3,7 @@ package com.stewsters
 import org.codehaus.groovy.runtime.InvokerHelper
 import org.junit.Test
 import static org.junit.Assert.*
+import com.stewsters.domain.Person
 
 class PersonTest {
     @Test public void canConstructAPerson() {
@@ -11,7 +12,7 @@ class PersonTest {
     }
 
     @Test public void usingCorrectVersionOfGroovy() {
-        assertEquals('1.6.7', InvokerHelper.version)
+        assertEquals('1.8.1', InvokerHelper.version)
     }
 }
 
