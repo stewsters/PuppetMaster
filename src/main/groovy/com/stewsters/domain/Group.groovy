@@ -1,0 +1,7 @@
+Class Group{
+	
+	String name;
+	
+	
+
+}
